@@ -654,27 +654,67 @@
                         {
                             "Titel": "Fachbereich Vermessung",
                             "isFolderSelectable": false,
-                            
-                            "Layer": [
+                            "Ordner": [
                                 {
-                                    "id": "flur-wfs",
-                                    "visibility": false,
-                                    "styleId": "flur-style",
-                                    "name": "Fluren",
-                                    "mouseHoverField": "FLN"
+                                    "Titel": "Flächennutzungsplan (aktuelle Arbeitskarte)",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "fnp",
+                                            "visibility": false,
+                                            "name": "Flächennutzungsplan (aktuelle Arbeitskarte)",
+                                            "children": [
+                                                {
+                                                    "id": "fnp-wfs",
+                                                    "visibility": false,
+                                                    "name": "Flächennutzungsplan"
+                                                },
+                                                {
+                                                    "id": "fnp-wms",
+                                                    "visibility": false,
+                                                    "name": "Flächennutzungsplan"
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
-                                    "id": "bodenricht2024-wms",
-                                    "visibility": false,
-                                    "name": "Bodenrichtwerte 2024"
+                                    "Titel": "Baunutzungsplan Berlin West",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "baunutz58-wms",
+                                            "visibility": false,
+                                            "name": "Baunutzungsplan Berlin West (1:25.000)"
+                                        }
+                                    ]
                                 },
-				{
-                		    "id": "360fotos",                
-				    "styleId": "1711",
-                		    "visibility": false,               
-                		    "type": "layer",
-                		    "typ": "GeoJson"
-           			}
+                                {
+                                    "Titel": "Soziale Stadt",
+                                    "isFolderSelectable": false,
+                                    "Layer": [
+                                        {
+                                            "id": "qmgebiete",
+                                            "visibility": false,
+                                            "name": "Quartiersmanagementgebiete",
+                                            "children": [
+                                                {
+                                                    "id": "qm-gebiete-wfs",
+                                                    "styleId": "qm-gebiete-style",
+                                                    "mouseHoverField": "schluessel"
+                                                },
+                                                {
+                                                    "id": "qmgebiete-wms"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "qmgebiete-aktion-wms",
+                                            "visibility": false,
+                                            "name": "Aktionsräume (Stand Juli 2010)"
+                                        }
+                                    ]
+                                }
                             ]
                         }
                     ]
