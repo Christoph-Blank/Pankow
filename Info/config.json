@@ -700,17 +700,17 @@
                             ],
 			"Layer": [
                                 {
-                                    "id": "denkmalkarte",
+                                    "id": "Fotos",
                                     "visibility": false,
-                                    "name": "Denkmalkarte Berlin",
+                                    "name": "360 grad Fotos",
                                     "children": [
-                                        {
-                                            "id": "denkmal-wfs",
-                                            "styleId": "denkmal-style"
-                                        },
-                                        {
-                                            "id": "denkmal-wms"
-                                        }
+                                        	{
+                				"id": "360fotos",                
+						"styleId": "1711",
+                				"visibility": false,               
+                				"type": "layer",
+                				"typ": "GeoJson"
+           					}
                                     ]
                                 }
                             ]
