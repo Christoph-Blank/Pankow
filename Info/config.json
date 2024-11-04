@@ -697,7 +697,7 @@
                                         }
                                     ]
                                 },
-                            
+								{
                                     "Titel": "Flächennutzungsplan (aktuelle Arbeitskarte)",
                                     "isFolderSelectable": false,
                                     "Layer": [
