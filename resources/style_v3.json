@@ -1,1304 +1,771 @@
-[{
-        "styleId": "Neub",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 203.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 128, 0, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 7.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [0, 0, 255, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 181.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [0, 255, 255, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 201.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 0, 0, 0.7]
-                }
-            }
-        ]
-    },
-
-
+[
     {
-        "styleId": "Gebührenzone_F_Style",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 30.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 191, 191, 0.7]
-                }
-            },
+        "styleId": "bezirksgrenze-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 55.0
-                    }
-                },
                 "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [191, 255, 191, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 65.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [207, 168, 112, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 95.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 255, 179, 0.7]
+                    "polygonStrokeColor": [
+                        69,
+                        139,
+                        116,
+                        1
+                    ],
+                    "polygonStrokeWidth": 3,
+                    "polygonFillColor": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "legendValue": "Bezirksgrenze Pankow"
                 }
             }
         ]
     },
     {
-        "styleId": "Parkzone_T_Style",
-        "rules": [{
+        "styleId": "bearbeiterBWA-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        0,
+                        72,
+                        25,
+                        0.5
+                    ],
+                    "legendValue": "Bearbeitergebiete BWA"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "bearbeiterUD-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        0,
+                        54,
+                        100,
+                        0.5
+                    ],
+                    "legendValue": "Bearbeitergebiete UD"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "bearbeiterSTAPL-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        56,
+                        0,
+                        83,
+                        0.5
+                    ],
+                    "legendValue": "Bearbeitergebiete STAPL"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "flur-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        255,
+                        20,
+                        147,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "legendValue": "Flur"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "brw-style",
+        "rules": [
+            {
+                "style": {
+                    "legendValue": "brw",
+                    "polygonStrokeColor": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "f-bplan-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        255,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        255,
+                        226,
+                        77,
+                        0.5
+                    ],
+                    "legendValue": "Festgesetzte Bebauungspläne"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "e-bplan-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        27,
+                        127,
+                        27,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        188,
+                        255,
+                        188,
+                        0.5
+                    ],
+                    "legendValue": "Im Verfahren befindliche Bebauungspläne"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "denkmal-style",
+        "rules": [
+            {
+                "style": {
+                    "legendValue": "denkmal",
+                    "polygonStrokeColor": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "san1-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        255,
+                        77,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        255,
+                        210,
+                        191,
+                        1
+                    ],
+                    "legendValue": "umfassende Sanierungsgebiete"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "san2-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        255,
+                        77,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        255,
+                        251,
+                        192,
+                        1
+                    ],
+                    "legendValue": "vereinfachte Sanierungsgebiete"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "san3-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        239,
+                        255,
+                        1
+                    ],
+                    "legendValue": "aufgehobene Sanierungsgebiete"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "erhalt-stadt-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        217,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        0,
+                        0,
+                        0.4
+                    ],
+                    "legendValue": "Erhaltungsgebiet nach städtebaulicher Eigenart"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "erhalt-bev-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        0,
+                        127,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        0,
+                        200,
+                        0,
+                        0.4
+                    ],
+                    "legendValue": "Erhaltungsgebiet nach Zusammensetzung der Wohnbevölkerung"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "bloecke-style",
+        "rules": [
+            {
                 "conditions": {
                     "properties": {
-                        "STIFT": 13.0
+                        "blktypname": "Block"
                     }
                 },
-
                 "style": {
-                    "circleRadius": 0.1,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 0, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0],
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 0
+                    "polygonStrokeColor": [
+                        141,
+                        112,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        248,
+                        241,
+                        214,
+                        0.7
+                    ],
+                    "legendValue": "Blöcke"
                 }
             },
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 12.0
+                        "blktypname": "Bahnblock"
                     }
-
                 },
-
                 "style": {
-                    "circleRadius": 0.1,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 1,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 0, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0],
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 0
+                    "polygonStrokeColor": [
+                        110,
+                        84,
+                        39,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        173,
+                        148,
+                        108,
+                        0.7
+                    ],
+                    "legendValue": "Bahnblöcke"
                 }
-
+            },
+            {
+                "conditions": {
+                    "properties": {
+                        "blktypname": "Wasserblock"
+                    }
+                },
+                "style": {
+                    "polygonStrokeColor": [
+                        0,
+                        151,
+                        199,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        189,
+                        236,
+                        251,
+                        0.7
+                    ],
+                    "legendValue": "Wasserblöcke"
+                }
             }
         ]
     },
     {
-        "styleId": "Parkzone_L_Style",
-        "rules": [{
-
+        "styleId": "qm-gebiete-style",
+        "rules": [
+            {
                 "style": {
-                    "lineStrokeColor": [0, 0, 0, 1],
+                    "polygonStrokeColor": [
+                        198,
+                        107,
+                        0,
+                        0
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        194,
+                        129,
+                        0
+                    ],
+                    "legendValue": "Quartiersmanagementgebiete"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "sozgebiete-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        198,
+                        107,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        194,
+                        129,
+                        0.8
+                    ],
+                    "legendValue": "Gebiete Sozialer Zusammenhalt"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "lpv-style",
+        "rules": [
+            {
+                "style": {
+                    "polygonStrokeColor": [
+                        255,
+                        255,
+                        255,
+                        0
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "legendValue": "Landschaftsplanverfahren"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "flucht-bau-style",
+        "rules": [
+            {
+                "style": {
+                    "lineStrokeColor": [
+                        39,
+                        228,
+                        249,
+                        1
+                    ],
                     "lineStrokeWidth": 2,
-                    "lineStrokeDash": [1]
-                }
-            }
-
-        ]
-    },
-
-
-    {
-        "styleId": "990009",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 191, 191, 0]
-                }
-            }
-
-        ]
-    },
-
-    {
-        "styleId": "Fernverkehr.LI",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "type": "route"
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [255, 133, 133, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [5, 3]
-                }
-            }
-
-        ]
-    },
-    {
-        "styleId": "Fernverkehr.PKT",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "Fernverkehr.png",
-                "imageName": "Fernverkehr.png",
-                "imageWidth": 20,
-                "imageHeight": 20,
-                "imageScale": 0.3
-            }
-        }]
-    },
-    {
-        "styleId": "S-Bahn.LI",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "type": "route"
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [51, 160, 44, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [5, 3]
-                }
-            }
-
-        ]
-    },
-    {
-        "styleId": "S-Bahn.PKT",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "S-Bahn.png",
-                "imageName": "S-Bahn.png",
-                "imageWidth": 16,
-                "imageHeight": 16,
-                "imageScale": 0.2
-            }
-        }]
-    },
-    {
-        "styleId": "Tram.LI",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "type": "route"
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [255, 0, 0, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [5, 3]
-                }
-            }
-
-        ]
-    },
-    {
-        "styleId": "Tram.PKT",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "Tram.png",
-                "imageName": "Tram.png",
-                "imageWidth": 16,
-                "imageHeight": 16,
-                "imageScale": 0.2
-            }
-        }]
-    },
-    {
-        "styleId": "Bus.LI",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "type": "route"
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [160, 44, 154, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [5, 3]
-                }
-            }
-
-        ]
-    },
-    {
-        "styleId": "Bus.PKT",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "Bus.png",
-                "imageName": "Bus.png",
-                "imageWidth": 16,
-                "imageHeight": 16,
-                "imageScale": 0.2
-            }
-        }]
-    },
-    {
-        "styleId": "U-Bahn.LI",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "type": "route"
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [38, 89, 240, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [5, 3]
-                }
-            }
-
-        ]
-    },
-    {
-        "styleId": "U-Bahn.PKT",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "U-Bahn.png",
-                "imageName": "U-Bahn.png",
-                "imageWidth": 16,
-                "imageHeight": 16,
-                "imageScale": 0.2
-            }
-        }]
-    },
-
-    {
-        "styleId": "Citytoiletten_PKT",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "Citytoiletten_im_Bezirk_Mitte_Symbol.png",
-                "imageName": "Citytoiletten_im_Bezirk_Mitte_Symbol.png",
-                "imageWidth": 3,
-                "imageHeight": 3,
-                "imageScale": 0.05
-            }
-        }]
-    },
-
-    {
-        "styleId": "Parkschein_P",
-        "rules": [{
-
-            "style": {
-                "legendValue": "Parkscheinautomat",
-                "type": "icon",
-                "clusterType": "icon",
-                "clusterImageName": "Parkscheinautomat.png",
-                "imageName": "Parkscheinautomat.png",
-                "imageScale": 0.15,
-                "clusterImageScale": 0.15,
-                "clusterTextFillColor": [51, 51, 51, 1],
-                "clusterTextStrokeColor": [255, 255, 255, 1],
-                "clusterTextStrokeWidth": 3,
-                "clusterTextScale": 1.3,
-                "clusterTextOffsetX": 20,
-                "clusterTextOffsetY": 20
-            }
-        }]
-
-
-    },
-    {
-        "styleId": "Schulen.fl",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 2.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 0, 0, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 188.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [0, 136, 255, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 209.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 136, 0, 0.7]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 9.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [45, 45, 45, 0],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [0, 160, 0, 0.7]
+                    "legendValue": "Baufluchtlinie"
                 }
             }
         ]
     },
     {
-        "styleId": "Schulen.tx",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 2.0
-                    }
-                },
-                "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [255, 0, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            },
+        "styleId": "flucht-str-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 188.0
-                    }
-                },
                 "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 136, 255, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 209.0
-                    }
-                },
-                "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [255, 136, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 9.0
-                    }
-                },
-                "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 160, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            }
-
-
-        ]
-    },
-    {
-        "styleId": "BPlan_F_Style",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_Bez_festg_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [0, 0, 255, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [66, 160, 255, 0.35]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_Bez_iV_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [0, 0, 255, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [94, 174, 255, 0.15]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_einfach_B_festg_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [85, 43, 0, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [155, 92, 77, 0.35]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_einfach_B_iV_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [85, 43, 0, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [176, 111, 94, 0.15]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_einfach_E_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [85, 43, 0, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonStrokeDash": [5, 3],
-                    "polygonFillColor": [176, 11, 94, 0]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_Senat_festg_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [219, 18, 13, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 102, 0, 0.35]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "KLASSENNAM": "BP_Senat_iV_FL"
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [219, 18, 13, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 102, 0, 0.15]
+                    "lineStrokeColor": [
+                        26,
+                        131,
+                        0,
+                        1
+                    ],
+                    "lineStrokeWidth": 7,
+                    "legendValue": "Straßenfluchtlinie"
                 }
             }
         ]
     },
     {
-        "styleId": "BPlan_T_Style",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 53.0
-                    }
-                },
-                "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 0, 255, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            },
+        "styleId": "flucht-strbau1-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 43.0
-                    }
-                },
                 "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [219, 18, 13, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            },
-
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 78.0
-                    }
-                },
-                "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [85, 43, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
+                    "lineStrokeColor": [
+                        26,
+                        131,
+                        0,
+                        1
+                    ],
+                    "lineStrokeWidth": 7,
+                    "legendValue": "Straßen- und Baufluchtlinie (Straßenflucht)"
                 }
             }
         ]
     },
     {
-        "styleId": "BPlan_L_Style",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 52.0
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [0, 0, 255, 1],
-                    "lineStrokeWidth": 1.5
-                }
-            },
+        "styleId": "flucht-strbau2-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 42.0
-                    }
-                },
                 "style": {
-                    "lineStrokeColor": [219, 18, 13, 1],
-                    "lineStrokeWidth": 1.5
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 77.0
-                    }
-                },
-                "style": {
-                    "lineStrokeColor": [85, 43, 0, 1],
-                    "lineStrokeWidth": 1.5
+                    "lineStrokeColor": [
+                        39,
+                        228,
+                        249,
+                        1
+                    ],
+                    "lineStrokeWidth": 2,
+                    "legendValue": "Straßen- und Baufluchtlinie (Bauflucht)"
                 }
             }
-
         ]
     },
-
     {
-        "styleId": "Denkmale_Standbilder_PKT",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "Art": "D"
-                    }
-                },
-
+        "styleId": "flucht-frei-style",
+        "rules": [
+            {
+                "style": {
+                    "lineStrokeColor": [
+                        247,
+                        105,
+                        247,
+                        1
+                    ],
+                    "lineStrokeWidth": 3,
+                    "legendValue": "Freiflächengrenze"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "flucht-strgr-style",
+        "rules": [
+            {
+                "style": {
+                    "lineStrokeColor": [
+                        235,
+                        52,
+                        52,
+                        1
+                    ],
+                    "lineStrokeWidth": 3,
+                    "legendValue": "Straßengrenze"
+                }
+            }
+        ]
+    },
+    {
+        "styleId": "hist-dop1989-style",
+        "rules": [
+            {
                 "style": {
                     "type": "icon",
-                    "clusterImageName": "Denkmal_Historisch_Symbol.PNG",
-                    "imageName": "Denkmal_Historisch_Symbol.PNG",
-                    "imageWidth": 3,
-                    "imageHeight": 3,
-                    "imageScale": 0.08
+                    "clusterType": "icon",
+                    "imageName": "dot-blue.png",
+                    "imageScale": 0.035,
+                    "clusterImageName": "dot-blue.png",
+                    "clusterTextOffsetX": 30,
+                    "clusterTextOffsetY": 0,
+                    "clusterTextFillColor": [
+                        0,
+                        0,
+                        255,
+                        1
+                    ]
                 }
-            },
+            }
+        ]
+    },
+    {
+        "styleId": "hist-dop1999-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "Art": "K"
-                    }
-                },
-
                 "style": {
                     "type": "icon",
-                    "clusterImageName": "Denkmal_Kunst_Symbol.PNG",
-                    "imageName": "Denkmal_Kunst_Symbol.PNG",
-                    "imageWidth": 3,
-                    "imageHeight": 3,
-                    "imageScale": 0.08
+                    "clusterType": "icon",
+                    "imageName": "dot-blue.png",
+                    "imageScale": 0.035,
+                    "clusterImageName": "dot-blue.png",
+                    "clusterTextOffsetX": 30,
+                    "clusterTextOffsetY": 0,
+                    "clusterTextFillColor": [
+                        0,
+                        0,
+                        255,
+                        1
+                    ]
                 }
             }
         ]
     },
     {
-        "styleId": "Gebaeude_F_Style",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "OFL": 1.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [85, 43, 0, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [155, 92, 77, 0.35]
-                }
-            },
+        "styleId": "hist-dop1969-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "OFL": 1200.0
-                    }
-                },
                 "style": {
-                    "polygonStrokeColor": [85, 43, 0, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonStrokeDash": [5, 3],
-                    "polygonFillColor": [155, 92, 77, 0]
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "imageName": "dot-blue.png",
+                    "imageScale": 0.035,
+                    "clusterImageName": "dot-blue.png",
+                    "clusterTextOffsetX": 30,
+                    "clusterTextOffsetY": 0,
+                    "clusterTextFillColor": [
+                        0,
+                        0,
+                        255,
+                        1
+                    ]
                 }
             }
         ]
     },
     {
-        "styleId": "Behindertenparkp_Style",
-        "rules": [{
-
-            "style": {
-                "legendValue": "Behindertenparkp_P",
-                "type": "icon",
-                "clusterType": "icon",
-                "clusterImageName": "Behindertenparkp_Symbol.png",
-                "imageName": "Behindertenparkp_Symbol.png",
-                "imageScale": 0.075,
-                "clusterImageScale": 0.075,
-                "clusterTextFillColor": [51, 51, 51, 1],
-                "clusterTextStrokeColor": [255, 255, 255, 1],
-                "clusterTextStrokeWidth": 3,
-                "clusterTextScale": 1.3,
-                "clusterTextOffsetX": 15,
-                "clusterTextOffsetY": 15
-            }
-        }]
-
-
-    },
-    {
-        "styleId": "Nummerierung.pt",
-        "rules": [{
-            "style": {
-                "circleRadius": 0,
-                "circleStrokeColor": [97, 69, 222, 0],
-                "circleStrokeWidth": 0,
-                "circleFillColor": [255, 255, 255, 0],
-                "labelField": "AUFSCHRIFT",
-                "textFont": "Arial",
-                "textScale": 2,
-                "textOffsetX": 0,
-                "textOffsetY": 0,
-                "textFillColor": [255, 128, 0, 1],
-                "textStrokeColor": [255, 255, 255, 0.9],
-                "textbackgroundFill": [255, 255, 255, 1],
-                "textbackgroundStroke": 20
-            }
-        }]
-    },
-
-    {
-        "styleId": "Nummerierung.fl",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 6.0
-                    }
-                },
+        "styleId": "hist-dop1984-style",
+        "rules": [
+            {
                 "style": {
-                    "polygonStrokeColor": [255, 128, 0, 1],
-                    "polygonStrokeWidth": 1.5,
-                    "polygonFillColor": [255, 191, 191, 0]
+                    "type": "icon",
+                    "clusterType": "icon",
+                    "imageName": "dot-blue.png",
+                    "imageScale": 0.035,
+                    "clusterImageName": "dot-blue.png",
+                    "clusterTextOffsetX": 30,
+                    "clusterTextOffsetY": 0,
+                    "clusterTextFillColor": [
+                        0,
+                        0,
+                        255,
+                        1
+                    ]
                 }
             }
-
         ]
     },
     {
-        "styleId": "Kartenblatt.pt",
-        "rules": [{
-            "style": {
-                "circleRadius": 0,
-                "circleStrokeColor": [97, 69, 222, 0],
-                "circleStrokeWidth": 0,
-                "circleFillColor": [255, 255, 255, 0],
-                "labelField": "AUFSCHRIFT",
-                "textFont": "Arial",
-                "textScale": 2,
-                "textOffsetX": 0,
-                "textOffsetY": 0,
-                "textFillColor": [0, 0, 255, 1],
-                "textStrokeColor": [255, 255, 255, 0.9],
-                "textbackgroundFill": [255, 255, 255, 1],
-                "textbackgroundStroke": 20
-            }
-        }]
-    },
-
-    {
-        "styleId": "Kartenblatt.li",
-        "rules": [{
+        "styleId": "stadtumbau-style",
+        "rules": [
+            {
                 "conditions": {
                     "properties": {
-                        "STIFT": 134.0
+                        "schluessel": "NE0205"
                     }
                 },
                 "style": {
-                    "lineStrokeColor": [0, 0, 255, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [5, 3]
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        255,
+                        133,
+                        148,
+                        0.7
+                    ]
                 }
-            }
-
-        ]
-    },
-
-    {
-	"styleId": "Block_Style",
-	"rules": [{
-    		"conditions": {
-        		"properties": {
-            			"STIFT": 80.0
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [225, 0, 0, 0.4],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [255, 191, 191, 0]
-        	}
-    	},
-    	{
-    		"conditions": {
-        		"properties": {
-            			"STIFT": 84.0
-            		}
-        	},
-    	"style": {
-        		"polygonStrokeColor": [225, 0, 0, 0.4],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [191, 255, 191, 0]
-        	}
-    	}
-]
-},
-
-    {
-	"styleId": "Block_Style_Feldvergleich",
-	"rules": [{
-    		"conditions": {
-        		"properties": {
-            			"KLASSENNAM": "Block_Akte_Feldvergleich"
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [225, 165, 0, 1],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [255, 165, 0, 0.5]
-        	}
-    	}
-]
-},
-
-    {
-	"styleId": "Block_Style_Sonstiges",
-	"rules": [{
-    		"conditions": {
-        		"properties": {
-            			"KLASSENNAM": "Block_Akte_Sonstiges"
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [225, 255, 0, 1],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [255, 255, 0, 0.5]
-        	}
-    	}
-]
-},
-
-    {
-	"styleId": "Block_Style_VS_HGN",
-	"rules": [{
-    		"conditions": {
-        		"properties": {
-            			"KLASSENNAM": "Block_Akte_VS_HGN"
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [0, 0, 255, 1],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [0, 0, 255, 0.5]
-        	}
-    	}
-]
-},
-
-    {
-	"styleId": "Block_Style_Gebäude",
-	"rules": [{
-    		"conditions": {
-        		"properties": {
-            			"KLASSENNAM": "Block_Akte_Gebäude"
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [0, 128, 0, 1],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [0, 128, 0, 0.5]
-        	}
-    	}
-]
-},
-
-    {
-	"styleId": "Block_Style_Abriss",
-	"rules": [{
-    		"conditions": {
-        		"properties": {
-            			"KLASSENNAM": "Block_Akte_Abriss"
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [225, 0, 0, 1],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [255, 0, 0, 0.5]
-        	}
-    	}
-]
-},
-    {
-        "styleId": "RBS_Bloecke.pt",
-        "rules": [{
-            "style": {
-                "circleRadius": 0,
-                "circleStrokeColor": [97, 69, 222, 0],
-                "circleStrokeWidth": 0,
-                "circleFillColor": [255, 255, 255, 0],
-                "labelField": "AUFSCHRIFT",
-                "textFont": "Arial",
-                "textScale": 2,
-                "textOffsetX": 0,
-                "textOffsetY": 0,
-                "textFillColor": [0, 164, 0, 1],
-                "textStrokeColor": [255, 255, 255, 0.9],
-                "textbackgroundFill": [255, 255, 255, 1],
-                "textbackgroundStroke": 20
-            }
-        }]
-    },
-
-    {
-        "styleId": "RBS_Bloecke.fl",
-        "rules": [{
-    		"conditions": {
-        		"properties": {
-            			"STIFT": 40.0
-            		}
-        	},
-    		"style": {
-        		"polygonStrokeColor": [0, 164, 0, 1],
-        		"polygonStrokeWidth": 1.5,
-        		"polygonFillColor": [0, 164, 0, 0]
-        	}
-    	}
-]
-},
-    {
-        "styleId": "RBS_Gebiete.pt",
-        "rules": [{
-            "style": {
-                "circleRadius": 0,
-                "circleStrokeColor": [97, 69, 222, 0],
-                "circleStrokeWidth": 0,
-                "circleFillColor": [255, 255, 255, 0],
-                "labelField": "AUFSCHRIFT",
-                "textFont": "Arial",
-                "textScale": 4,
-                "textOffsetX": 0,
-                "textOffsetY": 0,
-                "textFillColor": [0, 164, 0, 1],
-                "textStrokeColor": [255, 255, 255, 0.9],
-                "textbackgroundFill": [255, 255, 255, 1],
-                "textbackgroundStroke": 20
-            }
-        }]
-    },
-
-    {
-        "styleId": "RBS_Gebiete.li",
-        "rules": [{
-    		"conditions": {
-        		"properties": {
-            			"STIFT": 83.0
-            		}
-        	},
-    		"style": {
-        		"lineStrokeColor": [138, 255, 168, 1],
-        		"lineStrokeWidth": 2.5,
-        		"lineFillColor": [138, 255, 168, 1]
-        	}
-    	}
-]
-},
-
-    {
-        "styleId": "Recycling_Glass_Sym",
-        "rules": [{
-            "style": {
-                "type": "icon",
-                "clusterImageName": "Recycling_Glass_Icon.png",
-                "imageName": "Recycling_Glass_Icon.png",
-                "imageScale": 0.075,
-                "clusterImageScale": 0.075,
-                "clusterTextFillColor": [51, 51, 51, 1],
-                "clusterTextStrokeColor": [255, 255, 255, 1],
-                "clusterTextStrokeWidth": 3,
-                "clusterTextScale": 1.3,
-                "clusterTextOffsetX": 15,
-                "clusterTextOffsetY": 15
-            }
-        }]
-},
-{
-        "styleId": "E-Ladesaeulen_Schnell_Style",
-        "rules": [{
+            },
+            {
                 "conditions": {
                     "properties": {
-                        "Art der Ladeeinrichung": "Schnellladeeinrichtung"
+                        "schluessel": "SO0204"
                     }
                 },
-
                 "style": {
-		    "type": "circle",
-                    "circleRadius": 10,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 0, 0, 1]
-                    
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        254,
+                        246,
+                        163,
+                        0.5
+                    ]
                 }
-            }
-	]
- },
-{
-        "styleId": "E-Ladesaeulen_Normal_Style",
-        "rules": [{
+            },
+            {
                 "conditions": {
                     "properties": {
-                        "Art der Ladeeinrichung": "Normalladeeinrichtung"
+                        "schluessel": "SW0201"
                     }
                 },
-
                 "style": {
-		    "type": "circle",
-                    "circleRadius": 10,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [0, 128, 255, 1]
-                    
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 1,
+                    "polygonFillColor": [
+                        254,
+                        246,
+                        163,
+                        0.5
+                    ]
                 }
             }
-	]
- },
- {
-        "styleId": "MJP1.Geschoss.LI",
-        "rules": [{
-		"conditions": {
-                    "properties": {
-                        
-                    }
-                },
-
-               
-                "style": {
-                    "lineStrokeColor": [0, 0, 0, 1],
-                    "lineStrokeWidth": 1.5,
-                    "lineStrokeDash": [0, 0]
-                }
-            }
-
         ]
     },
     {
-        "styleId": "MJP1.Geschoss.FL",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "STIFT": 6.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [247, 210, 231, 1],
-                    "polygonStrokeWidth": 1,
-                    "polygonFillColor": [247, 210, 231, 1]
-                }
-            },
+        "styleId": "foerder-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 41.0
-                    }
-                },
                 "style": {
-                    "polygonStrokeColor": [255, 234, 170, 1],
+                    "polygonStrokeColor": [
+                        0,
+                        0,
+                        0,
+                        1
+                    ],
                     "polygonStrokeWidth": 1,
-                    "polygonFillColor": [255, 234, 170, 1]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 31.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [255, 212, 170, 1],
-                    "polygonStrokeWidth": 1,
-                    "polygonFillColor": [255, 212, 170, 1]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 71.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [212, 255, 170, 1],
-                    "polygonStrokeWidth": 1,
-                    "polygonFillColor": [212, 255, 170, 1]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 51.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [255, 255, 170, 1],
-                    "polygonStrokeWidth": 1,
-                    "polygonFillColor": [255, 255, 170, 1]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 5.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [213, 244, 255, 1],
-                    "polygonStrokeWidth": 1,
-                    "polygonFillColor": [213, 244, 255, 1]
-                }
-            },
-            {
-                "conditions": {
-                    "properties": {
-                        "STIFT": 30.0
-                    }
-                },
-                "style": {
-                    "polygonStrokeColor": [255, 127, 0, 1],
-                    "polygonStrokeWidth": 1,
-                    "polygonFillColor": [255, 127, 0, 1]
+                    "polygonFillColor": [
+                        102,
+                        178,
+                        102,
+                        0.7
+                    ]
                 }
             }
-
-
-
         ]
     },
     {
-        "styleId": "MJP1.Geschoss.P",
-        "rules": [{
-                "conditions": {
-                    "properties": {
-                        "HOEHE": 0.35   
-                 }
-                },
-                "style": {
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],  
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 1.2,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 0, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 0.8],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
-                }
-            },
+        "styleId": "plz-style",
+        "rules": [
             {
-                "conditions": {
-                    "properties": {
-                        "HOEHE": 0.26
-                    }
-                },
                 "style": {
-		    "rotation": 90,
-		    "rotation.isDegree": true,  
-		    "rotation.value": 90,
-                    "circleRadius": 0,
-                    "circleStrokeColor": [97, 69, 222, 0],
-                    "circleStrokeWidth": 0,
-                    "circleFillColor": [255, 255, 255, 0],
-                    "labelField": "AUFSCHRIFT",
-                    "textFont": "Arial",
-                    "textScale": 1,
-                    "textOffsetX": 0,
-                    "textOffsetY": 0,
-                    "textFillColor": [0, 0, 0, 1],
-                    "textStrokeColor": [255, 255, 255, 1],
-                    "textStrokeWidth": 1,
-                    "textbackgroundFill": [255, 255, 255, 1],
-                    "textbackgroundStroke": 20
+                    "polygonStrokeColor": [
+                        255,
+                        0,
+                        0,
+                        1
+                    ],
+                    "polygonStrokeWidth": 2,
+                    "polygonFillColor": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "legendValue": "Postleitzahlen"
                 }
             }
         ]
@@ -1326,3 +793,4 @@
     ]
   }
 ]
+
