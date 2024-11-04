@@ -1311,7 +1311,7 @@
           "type": "icon",
           "clusterType": "icon",
           "imageName": "Standort.png",
-          "imageScale": 0.7,
+          "imageScale": 0.3,
           "clusterImageName": "Standort.png",
           "clusterTextOffsetX": 30,
           "clusterTextOffsetY": 0,
