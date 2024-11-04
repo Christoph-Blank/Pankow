@@ -700,16 +700,10 @@
                             ],
 			"Layer": [
                                 {
-                                    "id": "Fotos",
-                                    "visibility": false,
-                                    "name": "360 grad Fotos",
-                                    "children": [
-                                        	{
-                				"id": "360fotos",                
-						"styleId": "1711",
-                				"visibility": false
-           					}
-                                    ]
+                                    "id": "360fotos",                
+				    "styleId": "1711",
+                		    "visibility": false
+                                    "name": "360 grad Fotos"
                                 }
                             ]
                         }
