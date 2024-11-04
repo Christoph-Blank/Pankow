@@ -3184,7 +3184,7 @@
     {
       "id" : "360fotos",
       "name" : "360grad Fotos",
-      "url" : "resources/geojson/360grad_Foto.geojson",
+      "url" : "/Pankow/resources/geojson/360grad_Foto.geojson",
       "typ" : "GeoJSON",
       "styleId": "1711",
       "gfiAttributes": {	
