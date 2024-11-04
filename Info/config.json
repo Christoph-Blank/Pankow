@@ -4,10 +4,11 @@
     "Portalconfig": {
         "portalTitle": {
             "title": "Bezirk Pankow",
-            "logo": "./resources/img/Wappen.png",
+            "logo": "../resources/img/Wappen.png",
             "link": "https://b-intern.de/ba/pankow/?ssl",
             "toolTip": "Berlin"
         },
+	"singleBaselayer": true,
         "treeType": "custom",
         "searchBar": {
             "bkg": {
