@@ -710,7 +710,14 @@
                                     "id": "bodenricht2024-wms",
                                     "visibility": false,
                                     "name": "Bodenrichtwerte 2024"
-                                }
+                                },
+				{
+                		    "id": "360fotos",                
+				    "styleId": "1711",
+                		    "visibility": false,               
+                		    "type": "layer",
+                		    "typ": "GeoJson"
+           			}
                             ]
                         }
                     ]
