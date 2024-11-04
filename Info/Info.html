@@ -9,7 +9,7 @@
 
     <title>Vermessungsamt Pankow von Berlin</title> <!-- enter your own Portal Title for the website at this -->
     <link rel="stylesheet" href="../mastercode/2_50_0/css/masterportal.css">
-    <link rel="stylesheet" href=""> <!-- Here you can configure your own fonts as url -->
+    <link rel="stylesheet" href="css/mp_pa_Info.css"> <!-- Here you can configure your own fonts as url -->
 <script type="text/javascript">
 	const observer = new MutationObserver(function() {
 		var container=document.querySelector('#masterportal-container')
@@ -34,6 +34,20 @@
    </script>
 </head>
 <body>
+	<div id="loader" class="centered-box-wrapper loader-is-loading loader-is-initially-loading">
+        <div class="centered-box-content">
+            <!-- Here you can configure the start screen -->
+            <div id="portal-logo-box">
+                <img id="portal-logo" src="../resources/img/Legende_Skyline_Logo.png" />
+                <!-- Here an own logo can be integrated -->
+                <div id="portal-logo-main-title"></div><!-- Here you can enter your own logo text -->
+                <div id="portal-logo-sub-title"></div><!-- Here you can enter your own Portal Title -->
+            </div>
+            <div id="loader-spinner-itself" class="default"></div>
+        </div>
+        <div id=""><img src=""><!-- This logo should not be changed, as it is a central part of the Masterportal -->
+        </div>
+    </div>
     <div id="masterportal-root"></div>
     <script type="text/javascript" src="../mastercode/2_50_0/js/masterportal.js"></script>
 </body>
