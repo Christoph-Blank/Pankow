@@ -15,12 +15,7 @@
                 "minCharacters": 3,
                 "suggestServiceId": "4",
                 "geosearchServiceId": "5",
-                "extent": [
-                    388900,
-                    5816000,
-                    397620,
-                    5821300
-                ],
+                "extent": [388900, 5816000, 397620, 5821300],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
                 "filter": "filter=(ort:Karow, Niederschönhausen, Pankow, Prenzlauer Berg, Weißensee)",
