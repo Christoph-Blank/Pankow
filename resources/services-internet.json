@@ -961,7 +961,7 @@
         "typ": "WFS",
         "version": "1.1.0",
         "featureType": "s_wfs_alkis_bezirk",
-        "wfsFilter": "/WebGIS Pankow _ Version 2.49.0/Portal/resources/filter/bezirk_filter.xml",
+        "wfsFilter": "../resources/filter/bezirk_filter.xml",
         "minScale": "0",
         "maxScale": "2500000",
         "featureNS": "",
