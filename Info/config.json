@@ -656,6 +656,48 @@
                             "isFolderSelectable": false,
                             "Ordner": [
                                 {
+                                    "Titel": "Kartenwerke",
+                                    "isFolderSelectable": false,
+                                    "Ordner": [
+                                        {
+                                            "Titel": "Blattschnitte",
+                                            "isFolderSelectable": false,
+                                            "Layer": [
+                                                {
+                                                    "id": "blatt-k5etrs-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte Karte von Berlin 1:5.000 ETRS89"
+                                                },
+                                                {
+                                                    "id": "blatt-k5soldner-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte Karte von Berlin 1:5.000 Soldner"
+                                                },
+                                                {
+                                                    "id": "blatt-dop-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die digitalen Orthophotos"
+                                                },
+                                                {
+                                                    "id": "blatt-dtk25-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die Kartenwerke 1:25.000"
+                                                },
+                                                {
+                                                    "id": "blatt-dtk50-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die Kartenwerke 1:50.000"
+                                                },
+                                                {
+                                                    "id": "blatt-dtk100-wms",
+                                                    "visibility": false,
+                                                    "name": "Blattschnitte für die Kartenwerke 1:100.000"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                
+                            ],
                                     "Titel": "Flächennutzungsplan (aktuelle Arbeitskarte)",
                                     "isFolderSelectable": false,
                                     "Layer": [
