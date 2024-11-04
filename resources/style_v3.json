@@ -1302,5 +1302,27 @@
                 }
             }
         ]
-    }
+    },
+    {
+    "styleId": "1711",
+    "rules": [
+      {
+        "style": {
+          "type": "icon",
+          "clusterType": "icon",
+          "imageName": "Standort.png",
+          "imageScale": 0.7,
+          "clusterImageName": "Standort.png",
+          "clusterTextOffsetX": 30,
+          "clusterTextOffsetY": 0,
+          "clusterTextFillColor": [
+            0,
+            0,
+            255,
+            1
+          ]
+        }
+      }
+    ]
+  }
 ]
