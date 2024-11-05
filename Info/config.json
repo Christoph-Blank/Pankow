@@ -23,7 +23,7 @@
                 ],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
-                "filter": "filter=(ort:Buch, Blankenfelde, Rosenthal, Blankenburg, Wilhelmsruh, Heinersdorf, Stadtrandsiedlung Malchow, Französisch Buchholz, Karow, Niederschönhausen, Pankow, Prenzlauer Berg, Weißensee)",
+                "filter": "filter=bundesland:Berlin,
                 "score": 0.6,
                 "zoomToResultOnHover": false,
                 "zoomToResultOnClick": true,
