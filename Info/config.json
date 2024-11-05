@@ -23,7 +23,7 @@
                 ],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
-                "filter": "filter=plz:(13089, 13086)",
+                "filter": "filter=plz:13089 or 13086",
                 "score": 0.6,
                 "zoomToResultOnHover": false,
                 "zoomToResultOnClick": true,
