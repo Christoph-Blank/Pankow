@@ -16,11 +16,11 @@
                 "suggestServiceId": "4",
                 "geosearchServiceId": "5",
                	"extent": [
-      		    386000, 
- 	            5819000, 
-   	            402500, 
-   	            5840000
-   		          ],
+                    369097,
+                    5799298,
+                    416865,
+                    5838236
+                ],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
                 "filter": "filter=(ort:Buch, Blankenfelde, Rosenthal, Blankenburg, Wilhelmsruh, Heinersdorf, Stadtrandsiedlung Malchow, Französisch Buchholz, Karow, Niederschönhausen, Pankow, Prenzlauer Berg, Weißensee)",
