@@ -23,7 +23,7 @@
                 ],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
-                "filter": "filter=bundesland:Berlin,
+                "filter": "filter=bundesland:Berlin",
                 "score": 0.6,
                 "zoomToResultOnHover": false,
                 "zoomToResultOnClick": true,
