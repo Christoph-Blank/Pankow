@@ -16,14 +16,14 @@
                 "suggestServiceId": "4",
                 "geosearchServiceId": "5",
                	"extent": [
-                    369097,
-                    5799298,
-                    416865,
-                    5838236
+                    387500,
+                    5819900,
+                    400100,
+                    5837400
                 ],
                 "suggestCount": 10,
                 "epsg": "EPSG:25833",
-		"filter": "filter=bezirk:Pankow",
+		"filter": "filter=bundesland:Berlin",
                 "score": 0.6,
                 "zoomToResultOnHover": false,
                 "zoomToResultOnClick": true,
