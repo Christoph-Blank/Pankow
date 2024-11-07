@@ -96,25 +96,71 @@
                                 "title": "1953",
                                 "layerId": "hist-dop1953"
                             },
+{
+                                            "id": "dop23",
+                                            "name": "DOP 2023",
+                                            "visibility": false
+                                        },
+                                        {
+                                            "id": "dop22",
+                                            "name": "DOP 2022",
+                                            "visibility": false
+                                        },
+
+    
+
+                                        
+                                       
+
+
+				
+                	    {
+                                "title": "2004",
+				"layerId": "dop04"                                
+                            },				
                             {
                                 "title": "2007",
                                 "layerId": "dop07"
+                            },
+                            {
+                                "title": "2009",
+                                "layerId": "dop09"
+                            },
+                            {
+                                "title": "2010",
+                                "layerId": "dop10"
                             },
                             {
                                 "title": "2011",
                                 "layerId": "dop11"
                             },
                             {
+                                "title": "2013",
+                                "layerId": "dop13"
+                            },
+                            {
                                 "title": "2014",
                                 "layerId": "dop14"
+                            },
+                            {
+                                "title": "2015",
+                                "layerId": "dop15"
                             },
                             {
                                 "title": "2016",
                                 "layerId": "dop16"
                             },
                             {
+                                "title": "2017",
+                                "layerId": "dop17"
+                            },
+                            {
                                 "title": "2018",
                                 "layerId": "dop18"
+                            },
+                            {
+                                "title": "2019",
+                                "layerId": "dop19"
                             },
                             {
                                 "title": "2020",
@@ -123,6 +169,14 @@
                             {
                                 "title": "2021",
                                 "layerId": "dop21"
+                            },
+                            {
+                                "title": "2022",
+                                "layerId": "dop22"
+                            },
+                            {
+                                "title": "2023",
+                                "layerId": "dop23"
                             }
                         ]
                     },
