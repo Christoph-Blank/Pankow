@@ -82,7 +82,8 @@
                         "onlyDesktop": false
                     },
                     "layerSlider": {
-                        "name": "Zeitreise",
+                        "name": "Zeitreihe",
+			"title": "Zeitreihe",
                         "sliderType": "player",
                         "glyphicon": "glyphicon-film",
                         "timeInterval": 4500,
