@@ -95,25 +95,7 @@
                             {
                                 "title": "1953",
                                 "layerId": "hist-dop1953"
-                            },
-{
-                                            "id": "dop23",
-                                            "name": "DOP 2023",
-                                            "visibility": false
-                                        },
-                                        {
-                                            "id": "dop22",
-                                            "name": "DOP 2022",
-                                            "visibility": false
-                                        },
-
-    
-
-                                        
-                                       
-
-
-				
+                            },                     
                 	    {
                                 "title": "2004",
 				"layerId": "dop04"                                
@@ -177,6 +159,10 @@
                             {
                                 "title": "2023",
                                 "layerId": "dop23"
+                            },
+                            {
+                                "title": "2024",
+                                "layerId": "dop24"
                             }
                         ]
                     },
