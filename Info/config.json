@@ -1,5 +1,3 @@
-
-
 {
     "Portalconfig": {
         "portalTitle": {
@@ -84,7 +82,7 @@
                         "onlyDesktop": false
                     },
                     "layerSlider": {
-                        "name": "translate#common:menu.tools.layerSlider",
+                        "name": "Zeitreise",
                         "sliderType": "player",
                         "glyphicon": "glyphicon-film",
                         "timeInterval": 4500,
