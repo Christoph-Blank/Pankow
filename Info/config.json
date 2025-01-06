@@ -694,11 +694,7 @@
                             "Titel": "Fachbereich Vermessung",
                             "isFolderSelectable": false,
                             "Ordner": [
-                                {
-                                    "Titel": "Kartenwerke",
-                                    "isFolderSelectable": false,
-                                    "Ordner": [
-					{
+				{
 						"Titel": "Grundbuch",
 						"isFolderSelectable": false,
 							"Layer": [								
@@ -716,7 +712,12 @@
 									"styleId": "grundbuch-style"
 									}
 							 	]
-					},
+				},
+                                {
+                                    "Titel": "Kartenwerke",
+                                    "isFolderSelectable": false,
+                                    "Ordner": [
+					
                                         {
                                             "Titel": "Blattschnitte",
                                             "isFolderSelectable": false,
