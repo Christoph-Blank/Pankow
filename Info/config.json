@@ -698,6 +698,25 @@
                                     "Titel": "Kartenwerke",
                                     "isFolderSelectable": false,
                                     "Ordner": [
+					{
+						"Titel": "Grundbuch",
+						"isFolderSelectable": false,
+							"Layer": [								
+									
+									{
+									"id": "grundbuchinfo_pankow",
+									"styleId": "grundbuch-style"
+									},
+									{
+									"id": "grundbuchinfo_prenzlauer_berg",
+									"styleId": "grundbuch-style"
+									},
+									{
+									"id": "grundbuchinfo_weissensee",
+									"styleId": "grundbuch-style"
+									}
+							 	]
+					},
                                         {
                                             "Titel": "Blattschnitte",
                                             "isFolderSelectable": false,
