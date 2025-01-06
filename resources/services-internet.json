@@ -3232,7 +3232,8 @@
 		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
 		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
 		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
-		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart"
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"
       },
       "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
       "legendURL" : "",
@@ -3255,7 +3256,8 @@
 		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
 		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
 		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
-		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart"
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"
       },
       "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
       "legendURL" : "",
@@ -3278,7 +3280,8 @@
 		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
 		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
 		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
-		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart"
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart",
+	      	"stand": "Aktualität"
       },
       "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
       "legendURL" : "",
