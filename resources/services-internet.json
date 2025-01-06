@@ -3214,5 +3214,51 @@
       "layerAttribution" : "nicht vorhanden",
       "legendURL" : "",
       "gfiTheme": "default"
-   }
+   },
+{
+      "id" : "grundbuchinfo_prenzlauer_berg",
+      "name" : "Grundbuchinformation Prenzlauer Berg",
+      "url" : "/Pankow/resources/geojson/Komplett_Prenzlauer_Berg.geojson",
+      "typ" : "GeoJSON",
+      "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart"
+      },
+      "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+      "legendURL" : "",
+      "gfiTheme": "default"
+},
+{
+      "id" : "grundbuchinfo_weissensee",
+      "name" : "Grundbuchinformation Weißensee",
+      "url" : "/Pankow/resources/geojson/Komplett_Weißensee.geojson",
+      "typ" : "GeoJSON",
+      "gfiAttributes" : {
+		"NAMGMK": "Gemarkung",
+		"FLN": "Flur",
+		"ZAE": "Flurstück",
+		"Verschneidung_strnam": "Straße",
+		"Verschneidung_hausnr": "Hausnummer",
+		"Verschneidung_hausnrz": "Hausnummer zusatz",
+		"Verschneidung_postleit": "PLZ",
+		"Grundbuchblatt_18_12_2024_amtsgericht": "Amtsgericht",
+		"Grundbuchblatt_18_12_2024_Grundbuchbezirk_GIS": "Grundbuchbezirk",
+		"Grundbuchblatt_18_12_2024_Grundbuchblatt_NR_GIS": "Grundbuchblatt",
+		"Grundbuchblatt_18_12_2024_Lfd-Nr": "lfd-Nr",
+		"Grundbuchblatt_18_12_2024_buchungsart": "Buchungsart"
+      },
+      "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
+      "legendURL" : "",
+      "gfiTheme": "default"
+}
 ]
