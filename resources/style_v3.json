@@ -796,7 +796,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "Stift": 3.0
+                        "Stift": 2.0
                     }
                 },
                 "style": {
