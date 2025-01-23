@@ -3358,7 +3358,7 @@
  {
         "id": "StorkStr97_8_OG_Li",
         "name": "StorkStr97_8_OG_Li",
-        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Linie.geojson",
+        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Linien.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
@@ -3368,7 +3368,7 @@
  {
         "id": "StorkStr97_9_OG_Li",
         "name": "StorkStr97_9_OG_Li",
-        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Linie.geojson",
+        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Linien.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
@@ -3378,7 +3378,7 @@
  {
         "id": "StorkStr97_10_OG_Li",
         "name": "StorkStr97_10_OG_Li",
-        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Linie.geojson",
+        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Linien.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": "ignore",
