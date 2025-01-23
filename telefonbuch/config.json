@@ -25,7 +25,7 @@
                 "score": 0.6,
                 "zoomToResultOnHover": false,
                 "zoomToResultOnClick": true,
-                "zoomLevel": 6
+                "zoomLevel": 1
             },
             "osm": {
                 "minChars": 3,
@@ -40,7 +40,7 @@
                 "layerTypes": ["WFS", "GeoJSON"]
             },
             "tree": {},
-            "startzoomLevel": 2,
+            "startzoomLevel": 1,
             "placeholder": "Suche nach: Straße, Haus-Nr.",
             "parcelSearch": true
          },
