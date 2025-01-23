@@ -3286,5 +3286,134 @@
       "layerAttribution" : "<p> Grundbuchinformation in Berlin Pankow. <br>.<br>Stand: 19.12.2024 <br>Quelle: ALKIS-Berlin <br>.<br>Ansprechpartener Technisch: Herr Blank<br>Telefon: 030 / 902954372<br> <a target='_blank' href='mailto:christoph.blank@ba-pankow.berlin.de'>E-Mail</a>",
       "legendURL" : "",
       "gfiTheme": "default"
-}
+},
+{
+        "id": "StorkStr97_8_OG_Fl",
+        "name": "StorkStr97 Geschosse",
+        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Fläche.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": {
+            "NAME": "Name",
+            "STELLENZEI": "Stellenzeichen",
+            "TELEFONNUM": "Telefonnummer",
+            "MAIL": "Mail",
+            "AUFGABEN": "Aufgaben",
+            "AMT": "Amt",
+            "FACHBEREIC": "Fachbereich",
+            "DIENSTGRUP": "Dienstgruppe",
+            "DIENSTGEBA": "Dienstgebäude",
+            "ZIMMER": "Zimmer",
+            "INTERNET": "Internet"
+        },
+	"legendURL": "ignore"
+        
+    },
+  {
+        "id": "StorkStr97_9_OG_Fl",
+        "name": "StorkStr97 Geschosse",
+        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Fläche.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": {
+            "NAME": "Name",
+            "STELLENZEI": "Stellenzeichen",
+            "TELEFONNUM": "Telefonnummer",
+            "MAIL": "Mail",
+            "AUFGABEN": "Aufgaben",
+            "AMT": "Amt",
+            "FACHBEREIC": "Fachbereich",
+            "DIENSTGRUP": "Dienstgruppe",
+            "DIENSTGEBA": "Dienstgebäude",
+            "ZIMMER": "Zimmer",
+            "INTERNET": "Internet"
+        },
+        "legendURL": "ignore",
+        "layerAttribution": "Geschosse im Rathaus Tiergarten Stand: 02.2022"
+        
+    },
+  {
+        "id": "StorkStr97_10_OG_Fl",
+        "name": "StorkStr97 Geschosse",
+        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Fläche.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": {
+            "NAME": "Name",
+            "STELLENZEI": "Stellenzeichen",
+            "TELEFONNUM": "Telefonnummer",
+            "MAIL": "Mail",
+            "AUFGABEN": "Aufgaben",
+            "AMT": "Amt",
+            "FACHBEREIC": "Fachbereich",
+            "DIENSTGRUP": "Dienstgruppe",
+            "DIENSTGEBA": "Dienstgebäude",
+            "ZIMMER": "Zimmer",
+            "INTERNET": "Internet"
+        },
+	"legendURL": "ignore"
+        
+        
+    },
+ {
+        "id": "StorkStr97_8_OG_Li",
+        "name": "StorkStr97_8_OG_Li",
+        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Linie.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+ {
+        "id": "StorkStr97_9_OG_Li",
+        "name": "StorkStr97_9_OG_Li",
+        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Linie.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+ {
+        "id": "StorkStr97_10_OG_Li",
+        "name": "StorkStr97_10_OG_Li",
+        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Linie.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+{
+        "id": "StorkStr97_8_OG_Te",
+        "name": "StorkStr97_8_OG_Te",
+        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Texte.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+{
+        "id": "StorkStr97_9_OG_Te",
+        "name": "StorkStr97_9_OG_Te",
+        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Texte.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    },
+
+{
+        "id": "StorkStr97_10_OG_Te",
+        "name": "StorkStr97_10_OG_Te",
+        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Texte.geojson",
+        "typ": "GeoJSON",
+        "gfiTheme": "default",
+        "gfiAttributes": "ignore",
+        "legendURL": "ignore",
+        "cache": false
+    }	
 ]
