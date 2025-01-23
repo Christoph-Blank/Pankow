@@ -784,7 +784,7 @@
         "rules": [{
                 "conditions": {
                     "properties": {
-                        "STIFT": 7
+                        "Stift": 7.0
                     }
                 },
                 "style": {
@@ -796,7 +796,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 3
+                        "Stift": 3.0
                     }
                 },
                 "style": {
@@ -808,7 +808,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 1
+                        "Stift": 1.0
                     }
                 },
                 "style": {
