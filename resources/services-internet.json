@@ -3290,7 +3290,7 @@
 {
         "id": "StorkStr97_8_OG_Fl",
         "name": "StorkStr97 Geschosse",
-        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Fläche.geojson",
+        "url": "/Pankow/resources/geojson/StorkStr97_8_OG_Flaeche.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
@@ -3312,7 +3312,7 @@
   {
         "id": "StorkStr97_9_OG_Fl",
         "name": "StorkStr97 Geschosse",
-        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Fläche.geojson",
+        "url": "/Pankow/resources/geojson/StorkStr97_9_OG_Flaeche.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
@@ -3335,7 +3335,7 @@
   {
         "id": "StorkStr97_10_OG_Fl",
         "name": "StorkStr97 Geschosse",
-        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Fläche.geojson",
+        "url": "/Pankow/resources/geojson/StorkStr97_10_OG_Flaeche.geojson",
         "typ": "GeoJSON",
         "gfiTheme": "default",
         "gfiAttributes": {
