@@ -820,7 +820,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 71.0
+                        "Stift": 66.0
                     }
                 },
                 "style": {
@@ -832,7 +832,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 51.0
+                        "Stift": 77.0
                     }
                 },
                 "style": {
@@ -844,7 +844,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 5.0
+                        "Stift": 88.0
                     }
                 },
                 "style": {
@@ -856,7 +856,7 @@
             {
                 "conditions": {
                     "properties": {
-                        "STIFT": 30.0
+                        "Stift": 99.0
                     }
                 },
                 "style": {
